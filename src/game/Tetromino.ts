@@ -91,6 +91,7 @@ export function renderPiece(piece: SpawnedPiece) {
   for (const part of body.parts) {
     if (part === body) continue
     const verts = part.vertices
+    if (!verts || verts.length === 0) continue
     graphics.fillStyle(fill, 1)
     graphics.lineStyle(2, edge, 1)
     graphics.beginPath()
