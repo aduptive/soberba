@@ -1,0 +1,19 @@
+{
+  "name": "soberba",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Tetris físico de pedras antigas. O céu é proibido. Empilhe ainda assim.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  }
+}
